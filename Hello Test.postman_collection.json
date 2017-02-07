@@ -21,7 +21,7 @@
 				}
 			],
 			"request": {
-				"url": "http://hello-hello.apps.rasos.co.uk/",
+				"url": "{{BASE_URL}}",
 				"method": "GET",
 				"header": [],
 				"body": {},
