@@ -1,0 +1,33 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Hello Test",
+		"_postman_id": "9ee3b9aa-1ddc-4383-cba9-904d2fe808f7",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Body of root handler",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Body matches string\"] = responseBody.has(\"root handler\");"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://hello-hello.apps.rasos.co.uk/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
